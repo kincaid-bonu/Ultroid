@@ -23,33 +23,33 @@ Owner_info_msg = f"""
 
 <strong>Message Forwards</strong> - {udB.get("PMBOT")}
 
-<stong>Ultroid <a href=https://github.com/TeamUltroid/Ultroid>[v{ultroid_version}]</a>, powered by @TeamUltroid</strong>
+<stong> CLÆ͜͡Ｙ<a href=https://t.me/CLaY995>[v{ultroid_version}]</a>, ♻️Powered by:- JARVIS </strong>
 """
 
 _settings = [
     [
-        Button.inline("API Kᴇʏs", data="apiset"),
-        Button.inline("Pᴍ Bᴏᴛ", data="chatbot"),
+        Button.inline("API Keys 🔑", data="apiset"),
+        Button.inline("PM Bot 🤖", data="chatbot"),
     ],
     [
-        Button.inline("Aʟɪᴠᴇ", data="alvcstm"),
-        Button.inline("PᴍPᴇʀᴍɪᴛ", data="ppmset"),
+        Button.inline("Alive 😌", data="alvcstm"),
+        Button.inline("PM Permit 🗣️", data="ppmset"),
     ],
-    [Button.inline("Fᴇᴀᴛᴜʀᴇs", data="otvars")],
-    [Button.inline("VC Sᴏɴɢ Bᴏᴛ", data="vcb")],
-    [Button.inline("« Bᴀᴄᴋ", data="mainmenu")],
+    [Button.inline("Features ⚙️", data="otvars")],
+    [Button.inline("VC Song Bot🎶", data="vcb")],
+    [Button.inline("⬅️ Back", data="mainmenu")],
 ]
 
 _start = [
     [
-        Button.inline("Lᴀɴɢᴜᴀɢᴇ 🌐", data="lang"),
-        Button.inline("Sᴇᴛᴛɪɴɢs ⚙️", data="setter"),
+        Button.inline("Language 🌐", data="lang"),
+        Button.inline("Settings ⚙️", data="setter"),
     ],
     [
-        Button.inline("Sᴛᴀᴛs ✨", data="stat"),
-        Button.inline("Bʀᴏᴀᴅᴄᴀsᴛ 📻", data="bcast"),
+        Button.inline("Stats ✨", data="stat"),
+        Button.inline("BroadCast 📻", data="bcast"),
     ],
-    [Button.inline("TɪᴍᴇZᴏɴᴇ 🌎", data="tz")],
+    [Button.inline("TimeZone 🌎", data="tz")],
 ]
 
 
@@ -85,7 +85,7 @@ async def ultroid(event):
                 if udB.get("PMBOT") == "True":
                     ok = "You can contact my master using this bot!!\n\nSend your Message, I will Deliver it To Master."
                 await event.reply(
-                    f"Hey there [{get_display_name(u)}](tg://user?id={u.id}), this is Ultroid Assistant of [{ultroid_bot.me.first_name}](tg://user?id={ultroid_bot.uid})!\n\n{ok}",
+                    f"Hey there [{get_display_name(u)}](tg://user?id={u.id}), this is Personal Assistant of [{ultroid_bot.me.first_name}](tg://user?id={ultroid_bot.uid})!\n\n{ok}",
                     buttons=[Button.inline("Info.", data="ownerinfo")],
                 )
             else:
