@@ -60,10 +60,10 @@ _main_help_menu = [
 
 SUP_BUTTONS = [
     [
-        Button.url("Repo", url="https://github.com/TeamUltroid/Ultroid"),
+        Button.url("Repo", url="https://t.me/Oomban_ULLATH"),
         Button.url("Addons", url="https://github.com/TeamUltroid/UltroidAddons"),
     ],
-    [Button.url("Support", url="t.me/UltroidSupport")],
+    [Button.url("Support", url="t.me/PrimeFlix_Chats")],
 ]
 
 # --------------------BUTTONS--------------------#
