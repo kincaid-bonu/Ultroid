@@ -11,9 +11,9 @@ from . import *
 
 REPOMSG = """
 • **ULTROID USERBOT** •\n
-• Repo - [Click Here](https://github.com/TeamUltroid/Ultroid)
+• Repo - [Click Here](https://t.me/Oomban_ULLATH)
 • Addons - [Click Here](https://github.com/TeamUltroid/UltroidAddons)
-• Support - @UltroidSupport
+• Support - @PrimeFlix_Chats
 """
 
 
